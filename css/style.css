@@ -606,3 +606,9 @@ footer p:nth-child(2){
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .profile-image{
+    height: 150px;
+  }
+}
+
