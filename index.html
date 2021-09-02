@@ -1,204 +1,196 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
 
     <head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dev Lucy Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-        <title>Personal Website</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
 
-        <!--Social Media-->
-
-        <script src="https://kit.fontawesome.com/8a5c6fab1f.js" crossorigin="anonymous"></script>
-
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+        
     </head>
 
     <body>
-        <section>
 
-            <!--Navigation-->
-            
-            <nav>
-            
-                <!--Logo-->
-            
-                <a href="#" class="logo">DERRICK OGOLE</a>
-            
-                <!--Menu-->
-            
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul> 
-            
-                <!--Bars-->
+        <header>
 
-                    <div class="toggle"></div>
+            <div>
+
+                <img src="./images/devlucy.png" alt="" class="logo">
+            
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+
+                <ul class="nav__list">
+                    <li class="nav-item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav-item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav-item"><a href="#work" class="nav__link">Work</a></li>
+                </ul>
 
             </nav>
 
-            <!--Text-->
+        </header>
 
-            <div class="text-container">
-                <p>Hello,</p>
-                <p>I'M DERRICK</p>
-                <p>Front End Developer <br>Digital Marketer</p>
-                <button class="hire-btn">Hire Me</button>
-                <button class="down-cv">Download CV</button>
-            </div>
+        <!--Introduction-->
 
-            <!--Model-->
+        <section class="intro" id="home">
 
-            <img src="images/portfolio-profile-image-no-bg.png" class="profile-image" alt="profile-image">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Lucy Smith</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+            
+            <img src="./images/model-face.jpg" alt="a picture of Lucy smiling" class="intro__img">
 
         </section>
 
-            <!--About-Section-->
-        
-            <div class="about-container">
+        <!--Services-->
 
-                <!--IMG-->
+        <section class="my-services" id="services">
 
-                <img src="images/about-image-no-bg.png" class="">
-        
-                <!--About-Text-->
-
-                <div class="about-text">
-
-                    <p>About Me</p>
-                    <p>Developer & Digital Marketer</p>
-                    <p>Hello, my name is Derrick. I am a front end developer and digital marketer. If you have any project you would like me to build for your business or require a consultation on how to develop your digital marketing capabilities, feel free to contact me.</p>
-                    <p>I focus on delivering excellent service and building long term relationships with clients.</p>
-
-                    <!--Button-->
-
-                    <button>Hire Me</button>
-                    <button>Download CV</button>
-
-                </div>
-
-            </div>
-
-            <!--Services-->
+            <h2 class="section__title section__title--services">What I do</h2>
 
             <div class="services">
-                
-                <!--Services-Text-->
 
-                <div class="services-text">
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, adipisci. Libero, esse. Laboriosam at exercitationem nemo magni repudiandae eius, fuga necessitatibus cumque nesciunt recusandae totam, aspernatur blanditiis aliquam earum harum.</p>
+                </div> <!-- / service-->
 
-                    <p>Services</p>
-                    <p>Tailor Made</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, perspiciatis excepturi quisquam rerum assumenda impedit natus praesentium soluta odit recusandae.</p>
+                <div class="service">
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, adipisci. Libero, esse. Laboriosam at exercitationem nemo magni repudiandae eius, fuga necessitatibus cumque nesciunt recusandae totam, aspernatur blanditiis aliquam earum harum.</p>
+                </div> <!-- / service-->
 
-                </div>
-                
-                <!--Box-->
+                <div class="service">
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, adipisci. Libero, esse. Laboriosam at exercitationem nemo magni repudiandae eius, fuga necessitatibus cumque nesciunt recusandae totam, aspernatur blanditiis aliquam earum harum.</p>
+                </div> <!-- / service-->
 
-                <div class="box-container">
+            </div> <!-- / services-->
 
-                    <!--Box-1-->
+            <a href="#work" class="btn">My Work</a>
 
-                    <div class="box-1">
+        </section>
 
-                        <span>1</span>
-                        <p class="heading">Web Design</p>
-                        <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic consequuntur earum aut dolor. Repellat voluptatum fuga enim alias voluptate repudiandae doloribus fugiat! Earum, nemo perspiciatis?</p>
-                        <button>Read More</button>
+        <!--About Me-->
 
-                    </div>    
+        <section class="about-me" id="about">
+    
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer and Digital Marketer based out of London</p>
 
-                    <!--Box-2-->
-
-                    <div class="box-2">
-
-                        <span>2</span>
-                        <p class="heading">Digital Marketing</p>
-                        <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic consequuntur earum aut dolor. Repellat voluptatum fuga enim alias voluptate repudiandae doloribus fugiat! Earum, nemo perspiciatis?</p>
-                        <button>Read More</button>
-
-                    </div>
-
-                    <!--Box-3--> 
-
-                    <div class="box-3">
-
-                        <span>3</span>
-                        <p class="heading">App Development</p>
-                        <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic consequuntur earum aut dolor. Repellat voluptatum fuga enim alias voluptate repudiandae doloribus fugiat! Earum, nemo perspiciatis?</p>
-                        <button>Read More</button>
-
-                    </div>
-
-                </div>
-            
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A impedit sunt reiciendis, vel quos suscipit in qui ipsam praesentium omnis explicabo nihil non ab dolorem velit blanditiis distinctio.</p>
+                <p>Quibusdam aliquid error autem rerum consectetur consequuntur esse ab, ad at voluptatem unde odio qui quia delectus soluta atque deserunt aspernatur repellendus.</p>
             </div>
 
-            <!--Contact-Me-->
+            <img src="./images/model-portrait.jpg" alt="Lucy smiling" class="about-me__img">
 
-            <div class="contact-me">
+        </section>
 
-                <p>Let's Work On A Project Together</p>
-                <button>Contact Me</button>
+        <!--My Work-->
 
-            </div>
+        <section class="my-work" id="work">
 
-            <!--Footer-->
+            <h2 class="section__title section__title--work">My Portfolio</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
-            <footer>
+            <div class="portfolio">
 
-                <p>Derrick Ogole</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad vitae atque quaerat vero dignissimos vel est sapiente modi officia saepe?</p>
+                <!--Portfolio Image-->
 
-                <!--Social-->
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
 
-                <div class="social-icons">
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
 
-                    <a href="https://www.facebook.com/derrickjogole" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/derrickogole" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.twitter.com/derrickogole" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
 
-                </div>
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
 
-                <!--Copyright-->
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
 
-                <p class="copyright">Copyright by Derrick Ogole 2021 &copy</p>
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
 
-            </footer>
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
 
-            <!--Attached-Social-Bar-->
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
 
-            <div class="a-social-b">
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
 
-                <a href="https://www.facebook.com/derrickjogole" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/derrickogole" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/derrickogole" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="portfolio_item">
+                    <img src="./images/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
 
             </div>
 
-            <!--JQuery-->
+        </section>
+ 
+        <!--Footer-->
 
-            <script type="text/javascript" src="js/jQuery.js"></script>
+        <footer class="footer">
 
-                <script type="text/javascript">
-            
-                $(document).ready(function(){
-                    $('.toggle').click(function(){
-                        $('.toggle').toggleClass('active')
-                        $('nav').toggleClass('active')
-                    })
-            })
+            <a href="mailto:me@derrickogole.com" class="footer__link">me@derrickogole.com</a>
 
-            </script>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://www.facebook.com/derrickjogole" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://www.instgram.com/derrickogole" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://www.twitter.com/derrickogole" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/derrickogole" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        
+        </footer>
+
+        <script src="js/index.js"></script>
 
     </body>
-
+    
 </html>
